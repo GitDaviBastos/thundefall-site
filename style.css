@@ -19,18 +19,18 @@ header > h1 {
     text-align: center;
     padding-top: 20px;
 }
-nav {
+#navheader {
     background-color: #124549;
     padding: 7px;
 }
-nav > a {
+#navheader > a {
     color: #AEC3B0;
     padding: 5px;
     text-decoration: none;
     font-weight: bold;
     border-radius: 4px;
 }
-nav > a:hover {
+#navheader > a:hover {
     background-color: #01161e;
 }
 
@@ -59,7 +59,21 @@ nav > a:hover {
     width: 1050px;
     display: block;
     margin: auto;
-    padding: 20px;
+    padding: 20
+}
+
+.vertical-nav {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    padding: 10px;
+
+}
+.iconerede {
+    height: 35px;
+    width: 35px;
+    padding-left: 35px;
+    padding-bottom: 8px;
 }
 
 iframe {
