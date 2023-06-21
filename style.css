@@ -5,6 +5,7 @@
     margin: 0%;
     font-family: Arial, Helvetica, sans-serif
     
+    
 }
 header {
     background-color: #01161e;
@@ -53,9 +54,6 @@ nav > a:hover {
     color: #01161e;
 }
 
-div:hover {
-    background-color: #01161e;
-}
 #img1 {
     height: 500px;
     width: 1050px;
