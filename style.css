@@ -33,9 +33,6 @@ nav > a:hover {
     background-color: #01161e;
 }
 
-main {
-    
-}
 #introducao {
     min-width: 300px;
     max-width: 1000px;
@@ -49,11 +46,22 @@ main {
     color: #01161e;
     text-align: center;
     padding: 5px;
-}   
+}
 #introducao p {
     font-size: 18px;
     text-indent: 35px;
     color: #01161e;
+}
+
+div:hover {
+    background-color: #01161e;
+}
+#img1 {
+    height: 500px;
+    width: 1050px;
+    display: block;
+    margin: auto;
+    padding: 20px;
 }
 
 iframe {
