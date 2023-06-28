@@ -34,7 +34,7 @@ header > h1 {
     background-color: #01161e;
 }
 
-#introducao {
+.introducao {
     min-width: 300px;
     max-width: 1000px;
     background-color: #AEC3B0;
@@ -43,12 +43,12 @@ header > h1 {
     box-shadow: 0px 0px 7px #00000071;
     border-radius: 0px 0px 10px 10px;
 }
-#introducao h1 {
+.introducao h1 {
     color: #01161e;
     text-align: center;
     padding: 5px;
 }
-#introducao p {
+.introducao p {
     font-size: 18px;
     text-indent: 35px;
     color: #01161e;
@@ -76,6 +76,14 @@ header > h1 {
     padding-bottom: 8px;
 }
 
+/* algumas id de raças.html estarão aparti dessa mensagem*/
+
+#h2racas {
+    text-align: center;
+    padding: 10px;
+    color: #01161e;;
+
+}
 iframe {
     display: block;
     margin: auto;
