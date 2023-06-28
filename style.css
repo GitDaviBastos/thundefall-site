@@ -6,6 +6,7 @@
     font-family: Arial, Helvetica, sans-serif
    
 }
+
 header {
     background-color: #01161e;
     color: #AEC3B0;
@@ -145,10 +146,7 @@ header > h1 {
 }
 .introducao p {
     font-size: 18px;
-    text-indent: 35px;
-    color: #01161e;
 }
-
 #img1 {
     height: 500px;
     width: 1050px;
