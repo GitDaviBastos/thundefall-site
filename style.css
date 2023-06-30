@@ -8,7 +8,7 @@
 }
 
 main    {
-    background-color: #AEC3B0;
+    background-color: #7ea99c;
 }
 
 p {
@@ -22,7 +22,9 @@ header {
     padding-top: 10px;
     height: 100px;
     text-align: center;
-
+}
+header p {
+    text-align: center;
 }
 header > h1 {
     text-align: center;
@@ -183,8 +185,7 @@ iframe {
     margin: auto;
 }
 /* Raças*/
-
-.articleracas {
+#introracas {
     text-align: center;
     max-width: 300px;
     min-width: 900px;
@@ -195,28 +196,116 @@ iframe {
     border-radius: 0px 0px 10px 10px;
     margin-bottom: 30px;
 }
-.articleracas h2 {
+#introracas h2 {
+    color: #01161e;
+    text-align: center;
+    padding: 5px
+}
+#introracas p {
+    font-size: 18px;
+    text-indent: 35px;
+    color: #01161e;  
+}
+#introracas a {
+    text-decoration: none;
+    color: #0e1735;
+}
+#introracas a:hover {
+    color: #01161e;
+    font-weight: bolder;
+}
+.articleracasR {
+    text-align: center;
+    max-width: 300px;
+    min-width: 900px;
+    background-color: #ffffff;
+    margin: auto;
+    padding: 25px;
+    box-shadow: 0px 0px 7px #00000071;
+    border-radius: 10px 10px 10px 10px;
+    margin-bottom: 30px;
+}
+.articleracasR h2 {
     color: #01161e;
     text-align: center;
     padding: 5px;
 }
-.articleracas p {
+.articleracasR p {
     font-size: 18px;
     text-indent: 35px;
     color: #01161e;
 }
-.articleracas a {
+.articleracasR a {
     text-decoration: none;
     color: #0e1735;
 }
-.articleracas a:hover {
+.articleracasR a:hover {
     color: #01161e;
     font-weight: bolder;
 }
-.articleracas img {
+.articleracasR img {
     height: 300px;
     width: 400px;
     float: right;
     padding: 15px;
     border: #01161e;
+}
+.articleracasR img:hover {
+    width: 100%;
+    height: 100vh;
+}
+
+.articleracasL  {
+    text-align: center;
+    max-width: 300px;
+    min-width: 900px;
+    background-color: #ffffff;
+    margin: auto;
+    padding: 25px;
+    box-shadow: 0px 0px 7px #00000071;
+    border-radius: 10px 10px 10px 10px;
+    margin-bottom: 30px;
+}
+.articleracasL h2 {
+    color: #01161e;
+    text-align: center;
+    padding: 5px;
+}
+.articleracasL p {
+    font-size: 18px;
+    text-indent: 35px;
+    color: #01161e;
+}
+.articleracasL a {
+    font-size: 18px;
+    text-indent: 35px;
+    color: #01161e;
+}
+.articleracasL a:hover {
+    color: #01161e;
+    font-weight: bolder;
+}
+.articleracasL img {
+    height: 300px;
+    width: 400px;
+    float: left;
+    padding: 15px;
+    border: #01161e;
+}
+.articleracasL img:hover {
+    width: 100%;
+    height: 100vh;
+}
+
+.imagemfundo {
+    display: flex;
+    justify-content: center;
+    max-width: 300px;
+    min-width: 900px;
+    background-color: #ffffff;
+    margin: auto;
+    padding: 25px;
+    box-shadow: 0px 0px 7px #00000071;
+    border-radius: 10px 10px 10px 10px;
+    margin-bottom: 30px;
 }
