@@ -45,55 +45,12 @@ header > h1 {
     background-color: #01161e;
 }
 
-.introducao {
-    text-align: center;
-    max-width: 300px;
-    min-width: 900px;
-    background-color: #ffffff;
-    margin: auto;
-    padding: 25px;
-    box-shadow: 0px 0px 7px #00000071;
-    border-radius: 0px 0px 10px 10px;
-    margin-bottom: 30px;
-}
-.introducao h1 {
-    color: #01161e;
-    text-align: center;
-    padding: 5px;
-}
-.introducao p {
-    font-size: 18px;
-    text-indent: 35px;
-    color: #01161e;
-}
-.introducao  a {
-    text-decoration: none;
-    color: #0e1735;
-}
-.introducao a:hover {
-    color: #ffffff;
-    font-weight: bolder;
-}
 #img1 {
     height: 500px;
     width: 1050px;
     display: block;
     margin: auto;
     padding: 20
-}
-
-.vertical-nav {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    padding: 10px;
-
-}
-.iconerede {
-    height: 35px;
-    width: 35px;
-    padding-left: 35px;
-    padding-bottom: 8px;
 }
 
 /* algumas id de raças.html estarão aparti dessa mensagem*/
@@ -143,22 +100,34 @@ header > h1 {
     background-color: #01161e;
 }
 
-.introducao {
-    min-width: 300px;
-    max-width: 1000px;
-    background-color: #AEC3B0;
+#introducao {
+    text-align: center;
+    max-width: 300px;
+    min-width: 900px;
+    background-color: #ffffff;
     margin: auto;
     padding: 25px;
     box-shadow: 0px 0px 7px #00000071;
     border-radius: 0px 0px 10px 10px;
+    margin-bottom: 30px
 }
-.introducao h1 {
+#introducao h2 {
     color: #01161e;
     text-align: center;
     padding: 5px;
 }
-.introducao p {
+#introducao p {
     font-size: 18px;
+    text-indent: 35px;
+    color: #01161e; 
+}
+#introducao a {
+    text-decoration: none;
+    color: #0e1735
+}
+#introducao a:hover {
+    color: #01161e;
+    font-weight: bolder;
 }
 #img1 {
     height: 500px;
