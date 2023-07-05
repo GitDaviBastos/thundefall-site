@@ -158,8 +158,8 @@ iframe {
 /* Raças*/
 #introracas {
     text-align: center;
-    max-width: 300px;
-    min-width: 900px;
+    min-width: 300px;
+    max-width: 900px;
     background-color: #ffffff;
     margin: auto;
     padding: 25px;
@@ -184,6 +184,36 @@ iframe {
 #introracas a:hover {
     color: #01161e;
     font-weight: bolder;
+}
+.botaotop {
+    outline: none;
+    border: 0;
+    background-color: #fff;
+    width: 60px;
+    height: 60px;
+    padding: 5px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0.06,);
+    z-index: 999;
+    cursor: pointer;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .4s ease;
+}
+.botaotop.active {
+   opacity: 1;
+   visibility: visible
+}
+.botaotop img {
+    width: 100%;
+    transform: rotate(180deg)
+
 }
 .articleracasR {
     text-align: center;
