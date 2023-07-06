@@ -30,18 +30,18 @@ header > h1 {
     text-align: center;
     padding-top: 20px;
 }
-#navheader {
+.navheader {
     background-color: #124549;
     padding: 7px;
 }
-#navheader > a {
+.navheader > a {
     color: #AEC3B0;
     padding: 5px;
     text-decoration: none;
     font-weight: bold;
     border-radius: 4px;
 }
-#navheader > a:hover {
+.navheader > a:hover {
     background-color: #01161e;
 }
 
@@ -52,7 +52,27 @@ header > h1 {
     margin: auto;
     padding: 20
 }
-
+.artigos    {
+    text-align: center;
+    max-width: 300px;
+    min-width: 900px;
+    background-color: #ffffff;
+    margin: auto;
+    padding: 25px;
+    box-shadow: 0px 0px 7px #00000071;
+    border-radius: 10px;
+    margin-bottom: 30px
+}
+.artigos h2 {
+    color: #01161e;
+    text-align: center;
+    padding: 5px;
+}
+.artigos p {
+    font-size: 18px;
+    text-indent: 35px;
+    color: #01161e
+}
 /* algumas id de raças.html estarão aparti dessa mensagem*/
 
 #h2racas {
@@ -213,8 +233,8 @@ iframe {
 .botaotop img {
     width: 100%;
     transform: rotate(180deg)
-
 }
+
 .articleracasR {
     text-align: center;
     max-width: 300px;
@@ -303,13 +323,15 @@ iframe {
     margin-bottom: 30px;
 }
 
-#listabuff {
-   padding: 40px;
+.lista {
+    padding-left: 80px;
     text-align: left;
 }
-#listabuff li {
-    font-weight: bold;
-    padding: 5px;
+.lista p {
+    padding-left: -80px;
+    line-height: 18px;
+    font-size: 16px;
+    font-style: italic;
 }
 footer {
     background-color: #01161e;

@@ -14,15 +14,16 @@
             <p>Reinos de Ashalara</p>
     </header>
     <!--Menu-Raças-->
-    <nav id="navheader"> 
+    <nav class="navheader"> 
         <a href="index.html" target="_self">Ínicio</a>
         <a href="historia.html" target="_self">Historia</a>
-        <a href="#">Guias</a>
-        <a href="#">Galeria</a>
+        <a href="guias.html" target="_self">Guias</a>
+        <a href="nacoes.html" target="_self">nações</a>
+        <a href="galeria.html" target="_self">Galeria</a>
         <a href="http://ca-amd-b2.phosting.com.br:11031/#" target="_blank">Mapa interativo</a>
     </nav>
     <main>
-        <button class="botaotop" onclick="backtop();">
+        <button title="Voltar ao Inicio" class="botaotop" onclick="backtop();">
             <img src="imagens/botao-voltar-topo.png" alt="">
         </button>
         <!--introducao-as-racas-->
@@ -151,28 +152,40 @@
             <img class="imagemfundo" src="imagens/img-fundo4.jpg" alt="">
         </picture>
         
-        <article class="articleracasL">
-            <h2 id="buffracas">Buffs das raças</h2>
+        <section class="artigos">
+            <h2 id="buffracas">Buffs das raças <i style="color: #bb0808;">(em Desenvolvimento)</i></h2>
                 <p> As raças de Ashalara são dotadas de características únicas e recebem buffs especiais que podem conferir vantagens sutis durante o jogo. Esses buffs são concedidos por meio da "Árvore das Raças", um sistema que permite aos jogadores personalizarem ainda mais suas habilidades e aprimorarem seus personagens de acordo com a raça escolhida.</p>
                 <h3>Buffs</h3>
-                    <ul id="listabuff">
-                        <li>Aetheris</li>
-                        <li>Darum</li>
-                        <li>Daruk</li>
-                        <li>Gearheart</li>
-                        <li>Haldur</li>
-                        <li>Nyssaris</li>
-                        <li>Shadar</li>
-                        <li>Thalendir</li>
-                        <li>Xel'tanis</li>
-                    </ul>
-        </article>
+                    <p><strong>Aetheris</strong>
+                        <ul class="lista">
+                                <p>Respiração Aquatica 1 </p>
+                                <p> Velocidade 1(em montanhas)</p>
+                        </ul>
+                    </p>
+                    <p><strong>Darum</strong>
+                        <ul class="lista">
+                                <p>+1 Coração de vida</p>
+                                <p>Visão no escuro(em cavernas)</p>
+                        </ul>
+                    </p>
+                    <p>Daruk</p>
+                    <p>Gearheart</p>
+                    <p>Haldur</p>
+                    <p>Nyssari</p>
+                    <p><strong>Shadar</strong>
+                        <ul class="lista">
+                                <p>Saturação(em planicies)</p>
+                        </ul>
+                    
+                    </p>
+                    <p>Thalendir</p>
+                    <p>Xel'tanis</p>
+        </section>
 
         <picture>
             <img class="imagemfundo" src="imagens/img-fundo5.jpg">
         </picture>
-
-
+        
     <footer>
         <p>Thunderfall 2023</p>
     </footer>
