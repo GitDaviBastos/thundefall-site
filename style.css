@@ -120,7 +120,7 @@ header > h1 {
     background-color: #01161e;
 }
 
-#introducao {
+.introducao {
     text-align: center;
     max-width: 300px;
     min-width: 900px;
@@ -131,21 +131,21 @@ header > h1 {
     border-radius: 0px 0px 10px 10px;
     margin-bottom: 30px
 }
-#introducao h2 {
+.introducao h2 {
     color: #01161e;
     text-align: center;
     padding: 5px;
 }
-#introducao p {
+.introducao p {
     font-size: 18px;
     text-indent: 35px;
     color: #01161e; 
 }
-#introducao a {
+.introducao a {
     text-decoration: none;
     color: #0e1735
 }
-#introducao a:hover {
+.introducao a:hover {
     color: #01161e;
     font-weight: bolder;
 }
@@ -342,4 +342,11 @@ footer {
 }
 footer p {
     text-align: center;
+}
+
+/* linha do tempo */
+
+#tempo {
+    width: 500px;
+    height: 600px;
 }

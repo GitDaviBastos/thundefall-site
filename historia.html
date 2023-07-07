@@ -3,10 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Thunderfall</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="javascript.js"></script>
 </head>
 <body>
-    <h1>asasdad</h1>]
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio maiores, voluptatibus aliquid, expedita repellat placeat dolor possimus tempora ducimus corrupti eius! Possimus repellat consequatur soluta quam, voluptatem expedita ullam quia! Lorem ipsum dolor sit amet consectetur adipisicing elit. In excepturi minus cupiditate nihil adipisci aperiam nemo numquam eaque, tempore dolorum voluptatum magni reiciendis, voluptas quas accusantium, deleniti voluptatibus exercitationem quaerat. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex saepe est cupiditate autem maxime ab unde voluptatibus natus nulla. Fugiat corporis maxime veniam, vero reprehenderit explicabo porro ut deleniti magni?</p>
+    <header>
+        <h1>Thunderfall</h1>
+            <p>reinos de Ashalara</p>
+    </header>
+    <!--Menu-->
+    <nav id="navheader"> 
+        <a href="index.html" target="_self">Ínicio</a>
+        <a href="racas.html" target="_self">Raças</a>
+        <a href="guias.html" target="_self">Guias e Regras</a>
+        <a href="nacoes.html" target="_self">Cidades e Nações</a>
+        <a href="galeria.html" target="_self">Galeria</a>
+        <a href="#" target="_blank">Mapa interativo</a>
+    </nav>
+    <main>
+        <button title="Voltar ao ínicio" class="botaotop" onclick="backtop();">
+            <img src="imagens/botao-voltar-topo.png" alt="">
+        </button>
+        
+        <article class="introducao">
+        <h2>Historia de Ashalara</h2>
+            <p>Há tempos atrás, Ashalara era uma terra selvagem e desabitada, onde a natureza reinava soberana. Montanhas majestosas se erguiam em meio a vastas florestas, rios caudalosos cruzavam os vales e planícies sem fim se estendiam até o horizonte. Era um lugar de imensa beleza, mas também de desafios e perigos.</p>
+            <p>Em meio às paisagens intocadas, vestígios de antigas civilizações rudimentares podem ser encontrados. Ruínas cobertas de musgo e pedras gastas pelo tempo contam histórias de povos que ali habitaram muito antes da chegada das raças. Eles deixaram para trás artefatos misteriosos e conhecimentos ancestrais que despertam a curiosidade dos aventureiros.</p>
+            <img src="#" alt="">
+            <p>No entanto, a maior parte de Ashalara permanece inexplorada e inabitada. Os terrenos vastos e virgens oferecem oportunidades para os bravos desbravadores que desejam forjar seu destino nessa nova terra. O futuro de Ashalara está em aberto, à espera daqueles que desejam moldar seu próprio caminho e deixar sua marca nesta terra selvagem.</p>
+            <p>À medida que as raças migraram para Ashalara, trazendo consigo suas culturas, tradições e ambições, um novo capítulo começou a se desenrolar. Alianças foram forjadas, rivalidades surgiram e as terras antes vazias foram tomadas por assentamentos e cidades em crescimento. Ashalara se tornou o cenário de grandes aventuras, conflitos e descobertas, com cada raça contribuindo para a rica tapeçaria da história desse mundo em evolução constante.</p>
+        </article>
+        <!--iframe da linha do tempo-->
+        
+        <article class="artigos">
+            <h2>Linha do Tempo do Servidor</h2>
+                <iframe id="tempo" src="tempo.html" frameborder="1"></iframe>
+        </article>
+    </main>
 </body>
 </html>
