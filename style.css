@@ -9,42 +9,33 @@
     font-family: 'Poppins', sans-serif;  
 }
 
-main    {
-    background-color: #7ea99c;
+/* Bannner-head */
+header {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+#logo img {
+    height: 90px;
+    width: 90px;
+}
+.banner {
+    height: 100vh;
+    display: flex;
+    background-image: url(imagens/img-banner4.jpg);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 p {
     padding: 3px;
     line-height: 23px;
     text-align: justify;
-}
-header {
-    background-color: #01161e;
-    color: #AEC3B0;
-    padding-top: 10px;
-    height: 100px;
-    text-align: center;
-}
-header p {
-    text-align: center;
-}
-header > h1 {
-    text-align: center;
-    padding-top: 20px;
-}
-.navheader {
-    background-color: #124549;
-    padding: 7px;
-}
-.navheader > a {
-    color: #AEC3B0;
-    padding: 5px;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 4px;
-}
-.navheader > a:hover {
-    background-color: #01161e;
 }
 
 #img1 {
@@ -83,37 +74,6 @@ header > h1 {
     color: #01161e;;
 
 }
-iframe {
-    display: block;
-    margin: auto;
-}
-
-header {
-    background-color: #01161e;
-    color: #AEC3B0;
-    padding-top: 10px;
-    height: 100px;
-    text-align: center;
-
-}
-header > h1 {
-    text-align: center;
-    padding-top: 20px;
-}
-#navheader {
-    background-color: #124549;
-    padding: 7px;
-}
-#navheader > a {
-    color: #AEC3B0;
-    padding: 5px;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 4px;
-}
-#navheader > a:hover {
-    background-color: #01161e;
-}
 
 .introducao {
     text-align: center;
@@ -150,14 +110,6 @@ header > h1 {
     display: block;
     margin: auto;
     padding: 20px;
-}
-
-.vertical-nav {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    padding: 10px;
-
 }
 .iconerede {
     height: 35px;
