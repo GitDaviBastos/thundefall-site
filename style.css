@@ -30,6 +30,10 @@ header {
     background-position: 100%;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 p {
