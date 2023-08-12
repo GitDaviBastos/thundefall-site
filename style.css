@@ -52,11 +52,11 @@ header ul li a {
 }
 
 header.rolagem{
-    background-color: #fff;
+    background-color: #2F4858;
     padding: 20px 4%;
 }
 header.rolagem a {
-    color: #000;
+    color: #fff;
 }
 /*Banner*/
 
