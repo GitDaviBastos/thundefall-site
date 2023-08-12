@@ -8,19 +8,23 @@
     <script src="javascript.js"></script>
 </head>
 <body>
-    <header>
-        <h1>Thunderfall</h1>
-            <p>Reinos de Ashalara</p>
+    <header id="header">
+        <div class="container">
+            <div class="flex">
+                <a href="#"><img src="imagens/Compasso.png" alt=""></a>
+                <nav>
+                    <ul>
+                        <li><a href="historia.html" target="_self">Historia</a></li>
+                        <li><a href="guias.html" target="_self"> Guias</a></li>
+                        <li><a href="nacoes.html" target="_self">Nações</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
     </header>
-    <!--Menu-->
-    <nav id="navheader"> 
-        <a href="historia.html" target="_self">Historia</a>
-        <a href="racas.html" target="_self">Raças</a>
-        <a href="guias.html" target="_self">Guias e Regras</a>
-        <a href="nacoes.html" target="_self">Cidades e Nações</a>
-        <a href="galeria.html" target="_self">Galeria</a>
-        <a href="http://103.195.101.34:25583/#" target="_blank">Mapa interativo</a>
-    </nav>
+    <section class="banner">
+        <h1>Embarque <span>nessa aventura</span></h1>
+    </section>
     <main>
         <button title="Voltar ao ínicio" class="botaotop" onclick="backtop();">
             <img src="imagens/botao-voltar-topo.png" alt="">
