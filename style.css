@@ -9,33 +9,51 @@
     font-family: 'Poppins', sans-serif;  
 }
 
-/* Bannner-head */
-header {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 10%;
-    background-color: rgba(0, 0, 0, 0.2);
+html {
+    height: 500vh;
 }
-#logo img {
+
+/*header*/
+
+.container {
+    max-width: 1290px;
+    margin: auto;
+}
+
+.flex   {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.flex a img {
     height: 90px;
     width: 90px;
 }
-.banner {
-    height: 100vh;
-    display: flex;
-    background-image: url(imagens/img-banner4.jpg);
-    background-position: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+header {
+    width: 100%;
+    padding: 60px 4%;
+}
+header ul {
+    list-style-type: none;
+}
+header ul li {
+    display: inline-block;
+    margin: 0px 40px;
+}
+header ul li a {
+    color: #ffffff;
+    text-decoration: none;
 }
 
+/*Banner*/
+
+.banner {
+    background-image: url(imagens/img-banner4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 p {
     padding: 3px;
     line-height: 23px;
