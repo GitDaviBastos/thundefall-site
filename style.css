@@ -364,15 +364,26 @@ footer p {
 
 /* CARDS*/
 
+.cards {
+    align-items: center;
+}
 .icon-card {
     background-color: #172C39;
     color: #ffffff;
-    display: flex;
-    flex-direction: column;
+    display: inline-block;
     justify-content: center;
-    text-align: justify;
-    width: 200px;
+    text-align: center;
+    width: 220px;
+    height: 600px;
     padding: 25px;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.389);
     border-radius: 8px;
+    margin: 10px;
+}
+.img-card {
+    width: 160px;
+    height: 160px;
+}
+.icon-card p {
+    color: #ffffff;
 }
