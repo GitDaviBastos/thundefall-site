@@ -14,7 +14,7 @@ html {
     background-color: #2F4858;
 }
 
-/*header*/
+/*header - index*/
 
 .container {
     max-width: 1280px;
@@ -58,7 +58,7 @@ header.rolagem{
 header.rolagem a {
     color: #fff;
 }
-/*Banner*/
+/*Banner - index*/
 
 .banner {
     height: 100vh;
@@ -75,9 +75,15 @@ header.rolagem a {
     color: #ffffff;
 }
 
-/*Fim do header*/
+/*Fim do header - index*/
+ 
+/*começo do Header geral */
 
 
+h1 {
+    text-align: center;
+    padding: 15px;
+}
 p {
     padding: 3px;
     line-height: 23px;
@@ -359,7 +365,7 @@ footer p {
 /* CARDS*/
 
 .icon-card {
-    background-color: #3f3f3f;
+    background-color: #172C39;
     color: #ffffff;
     display: flex;
     flex-direction: column;
@@ -368,4 +374,5 @@ footer p {
     width: 200px;
     padding: 25px;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.389);
+    border-radius: 8px;
 }
