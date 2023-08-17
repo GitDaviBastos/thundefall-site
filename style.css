@@ -350,15 +350,14 @@ footer p {
     height: 600px;
 }
 
-#artigo-tempo {
+#artigo-tempo { 
     text-align: center;
     max-width: 700px;
     min-width: 100%;
     background-color: #ffffff;
     margin: auto;
-    padding: 25px;
+    padding: 5px;
     box-shadow: 0px 0px 7px #00000071;
-    border-radius: 10px;
     margin-bottom: 30px
 }
 
@@ -374,16 +373,16 @@ footer p {
     display: inline-block;
     justify-content: center;
     text-align: center;
-    width: 220px;
+    width: 200px;
     height: 600px;
     padding: 25px;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.389);
     border-radius: 8px;
-    margin: 10px;
+    margin: 15px 10px;
 }
 .img-card {
-    width: 160px;
-    height: 160px;
+    width: 80px;
+    height: 80px;
 }
 .icon-card p {
     color: #ffffff;
