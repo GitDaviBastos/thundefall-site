@@ -387,4 +387,7 @@ footer p {
 }
 .icon-card p {
     color: #ffffff;
+    text-align: center;
+    text-indent: 15px;
+    display: flex;
 }
