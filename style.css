@@ -366,56 +366,37 @@ footer p {
 .cards {
     display: flex; flex-direction: row; flex-wrap: wrap;
     justify-content: center;
+    padding: 32px;
 }
+
 .icon-card {
-    background-color: #172C39;
-    color: #ffffff;
-    display: inline-block;
-    justify-content: center;
-    text-align: center;
+    display:inline-block;
     width: 220px;
     height: 540px;
-    padding: 25px;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.389);
+    max-height: 600px;
+    text-align: center;
+    padding: 1rem 1.5rem ;
+    margin:  15px 10px;
+    background-color: #0e1735;
+    color: white;
     border-radius: 8px;
-    margin: 15px 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.389);
+
 }
 .img-card {
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
 }
+
 .icon-card p {
     color: #ffffff;
     text-align: center;
     text-indent: 15px;
     display: flex;
 }
-.btn-ler-mais {
-    display: flex;
-    background-color:#AEC3B0;
-    color: #0e1735;
-    font-weight: 500;
-    border-radius: 6px;
-    padding: 3px;
-    margin: 5px;
+
+.icon-card button {
+    background-color: #ffffff  ;
+
     bottom: 0%;
-}
-
-.btn-ler-mais:hover {
-    background-color: #0e1735;
-    color: #fff;
-}
-
-.text   {
-    height: 300px;
-    overflow: hidden;
-    position: relative;
-}
-.text:before {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 100px;
-    background: linear-gradient(transparent, #172C39);
 }
